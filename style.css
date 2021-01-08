@@ -1,0 +1,53 @@
+#root {
+  font-family: Helvetica, sans-serif;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+  margin: 100px;
+}
+
+#title {
+  font-size: 40px;
+  display: block;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+#quote-box {
+  text-align: center;
+  vertical-align: center;
+  display: block;
+  margin: auto;
+  padding: 25px;
+  width: 40%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#text {
+  font-size: 30px;
+}
+
+#author {
+  font-size: 15px;
+}
+
+#new-quote {
+ display: block;
+ float: right;
+ font-size: 15px;
+ background-color: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#tweet-quote {
+  display: block;
+  float: left;
+  font-size: 20px;
+}
